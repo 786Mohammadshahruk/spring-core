@@ -2,6 +2,7 @@ package org.spring.core.loosecouplled;
 
 public class Client {
     public static void main(String[] args) throws Exception {
+
         CreditCardPaymentProcessor creditCardPaymentProcessor = new CreditCardPaymentProcessor();
         Order order = new Order(creditCardPaymentProcessor);
         order.processOrder(1000);
