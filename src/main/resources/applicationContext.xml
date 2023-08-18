@@ -8,8 +8,4 @@
         <property name="name" value="Hello Spring IOC."/>
     </bean>
 
-    <bean id="codPaymentProcessor" class="org.spring.core.iocExample.CODPaymentProcessor">
-        <property name="name" value="Hello Spring IOC."/>
-    </bean>
-
 </beans>

@@ -1,4 +1,4 @@
-package org.spring.core.iocExample;
+package org.spring.core.ioc.configuration;
 
 public class CODPaymentProcessor implements PaymentProcessor {
 
